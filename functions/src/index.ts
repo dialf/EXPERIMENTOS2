@@ -33,6 +33,16 @@ exports.app = functions.https.onRequest(app)
     response.send("que onda bro ya es la 2 ves que haces eso acordate de git pedaso de B***** att:lafken del pasado =3");
   });
 
+
+
+
+  
+//priemr intento funcional
+let horario = new Date();
+console.log(horario.getHours(),horario.getMinutes(),horario.getSeconds())
+
+
+//BASURA QUE NO FUNCIONA--------------------------------------
 //let horario = new Date().toLocaleString( {hours12: fasle} ); 
 //let horario = new Date(Date.UTC((2012, 11, 12, 3, 0, 0 )));
 // //const options = {hours: Number,minutes: Number,seconds: Number }
